@@ -1,0 +1,87 @@
+
+# **Python: High-Level & Interpreted Language**
+
+---
+
+## **1. Python as a High-Level Language**
+
+**Definition:**
+A **high-level language (HLL)** is a programming language that is **closer to human language** and **farther from machine code**, making it **easy to read, write, and understand**.
+
+**Key Features:**
+
+* **Human-friendly syntax:** Easy to read and write (e.g., `print("Hello World")`).
+* **Hardware abstraction:** No need to manage memory or CPU instructions manually.
+* **Portability:** Can run on different computers with little or no modification.
+* **Needs translation:** Requires a **compiler** or **interpreter** to convert into machine code.
+
+**Examples:**
+
+* **Python**, **Java**, **C#**, **JavaScript**, **Ruby**
+
+**Contrast with Low-Level Languages:**
+
+* **Low-level languages** (Assembly, Machine Code) are **closer to hardware**, **harder to read**, but **faster in execution**.
+
+---
+
+## **2. Python as an Interpreted Language**
+
+Python is primarily an **interpreted language**, meaning it is **executed line by line** by the **Python Virtual Machine (PVM)**.
+
+---
+
+## **3. Python Execution Flow**
+
+### **Step 1: Write Source Code**
+
+* File with `.py` extension, e.g.:
+
+```python
+print("Hello, World!")
+```
+
+### **Step 2: Compilation to Bytecode (Automatic)**
+
+* Python **automatically compiles source code into bytecode** (`.pyc`) stored in `__pycache__`.
+* **Bytecode** is **platform-independent**.
+* **No manual compilation** is required.
+
+### **Step 3: Python Virtual Machine (PVM) Execution**
+
+* PVM **interprets the bytecode line by line**.
+* Handles **memory allocation, variable management, function calls, and runtime errors**.
+
+### **Step 4: Runtime Output**
+
+* The bytecode execution produces **output on your machine**.
+* **Errors** are usually **runtime errors**, unlike Java where many are caught during compilation.
+
+---
+
+## **4. Flow Diagram**
+
+```
+Python Source Code (.py)
+        │
+        ▼
+[Automatic Compilation to Bytecode (.pyc)]
+        │
+        ▼
+Python Virtual Machine (PVM)
+        │
+        ▼
+Execution on Machine
+```
+
+---
+
+## **5. Key Points to Remember**
+
+* **Compilation happens automatically** → no separate step needed.
+* **Bytecode is platform-independent** → runs on any system with Python installed.
+* **Execution is interpreted** → line-by-line via PVM.
+* **Slower than compiled languages** like Java.
+* **Errors appear mostly at runtime.**
+
+
