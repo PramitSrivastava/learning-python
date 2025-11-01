@@ -1,0 +1,9 @@
+st = "Hi this is a new line"
+
+f = open("file.txt", "a")
+
+f.write(st)
+
+f.close()
+
+# This script of code will append the existing content of the file.txt with the new line "Hi this is a new line".
