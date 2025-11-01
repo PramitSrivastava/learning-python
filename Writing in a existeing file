@@ -1,0 +1,9 @@
+st = "Hi this is a new line"
+
+f = open("file.txt", "w")
+
+f.write(st)
+
+f.close()
+
+# Thi script of code will overwrite the existing content of the file.txt with the new line "Hi this is a new line".
